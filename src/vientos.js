@@ -10,7 +10,8 @@ if (typeof window !== 'undefined') {
   // TODO: discover from vientos-service API
   window.vientos.login = {
     google: service + '/auth/google',
-    facebook: service + '/auth/facebook'
+    facebook: service + '/auth/facebook',
+    vientos: service + '/auth/vientos'
   }
 }
 
